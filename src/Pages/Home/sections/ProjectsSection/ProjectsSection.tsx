@@ -3,7 +3,9 @@ import ProjectCard, { ProjectCardProps } from "../../../../components/ProjectCar
 import AnimationComponent from "../../../../components/AnimationComponent/AnimationComponent";
 
 import Trello from "../../../../assets/images/project-trello.png"
-
+import Financas from "../../../../assets/images/project-financas.png"
+import Craze from "../../../../assets/images/project1-craze-maze.gif"
+import Blotting from "../../../../assets/images/project2-blotting.png"
 
 const ProjectsSection: React.FC = () => {
 
@@ -25,7 +27,7 @@ const ProjectsSection: React.FC = () => {
         {
             title: "Project Exemple",
             subtitle: "Jul 2023 - Dez 2023",
-            srcImg: "src/assets/images/project-financas.png",
+            srcImg: Financas,
             description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porta semper velit vel rutrum. Aliquam vulputate, nisi eget tristique mattis, nisi sem faucibus eros, a auctor felis sem ut mauris. Phasellus a ultrices elit. Curabitur ut diam eu orci auctor pretium.",
             technologies: "Technologies: JavaScript, HTML, CSS, Canvas Graphics",
             websiteURL: "https://trello.com/",
@@ -34,7 +36,7 @@ const ProjectsSection: React.FC = () => {
         {
             title: "Project Craze Maze",
             subtitle: "Jul 2019 - May 2019",
-            srcImg: "src/assets/images/project1-craze-maze.gif",
+            srcImg: Craze,
             description: "Game to escape the maze, but not only that. An algorithm has been created that randomly generates a new maze each time the game is started. In this game, the user can use the keyboard keys to move until they find the flag and win the game",
             technologies: "Technologies: JavaScript, HTML, CSS, Canvas Graphics",
             websiteURL: "https://adrianasaty.github.io/ironhack-project1-craze-maze/index.html",
@@ -43,7 +45,7 @@ const ProjectsSection: React.FC = () => {
         {
             title: "Project Blotting",
             subtitle: "Jul 2019 - May 2019",
-            srcImg: "src/assets/images/project2-blotting.png",
+            srcImg: Blotting,
             description: "Game to escape the maze, but not only that. An algorithm has been created that randomly generates a new maze each time the game is started. In this game, the user can use the keyboard keys to move until they find the flag and win the game",
             technologies: "Technologies: JavaScript, HTML, CSS, Canvas Graphics",
             websiteURL: "https://adrianasaty.github.io/ironhack-project1-craze-maze/index.html",
